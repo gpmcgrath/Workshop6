@@ -8,5 +8,5 @@ var app = express();
 app.use(express.static('../client/build'));
 
 app.listen(3000, function () {
-  console.log('App listening on port 3000!');
+  console.log('A app listening on port 3000!');
 });
